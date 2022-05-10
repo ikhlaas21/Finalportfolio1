@@ -2,7 +2,8 @@
     background-image: url("../golden-clouds-duncan1890.jpg");
     background-position: center;
     background-size: cover;
-    height: 100vh;
+    height: 110vh;
+    background-attachment: fixed;
 
 }
 #suit{
@@ -17,3 +18,66 @@
    background-color:rgb(253,216,141);
    border-bottom: 1px solid black;
 }
+#aboutlist{
+    list-style: none;
+}
+#resume{
+    padding-top: 250px;
+    background-color: maroon;
+}
+@media screen and (max-width :768px ){
+    #resume{
+        padding-top: 50%;
+      
+    }
+}
+@media screen and (max-width :426px ){
+    #resume{
+        padding-top: 630px;
+
+      
+    }
+}
+@media screen and (max-width :376px ){
+    #resume{
+        padding-top: 700px;
+
+      
+    }
+}
+@media screen and (max-width :321px ){
+    #resume{
+        padding-top: 825px;
+
+      
+    }
+}
+
+#card1 {
+    border-top-left-radius: 50px;
+    border-bottom-right-radius: 50px;
+}
+#card2 {
+    border-top-left-radius: 50px;
+}
+#card3 {
+    border-top-right-radius: 50px;
+}
+#card4 {
+    border-top-left-radius: 50px;
+    border-bottom-right-radius: 50px;
+}
+#skills{
+    background-image: url("../golden-clouds-duncan1890.jpg");
+    background-size: cover;
+    background-attachment: fixed;
+}
+.card{
+    border-color: maroon;
+    border-width: 3px;
+}
+.me{
+    
+
+}
+
