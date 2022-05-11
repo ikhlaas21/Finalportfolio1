@@ -54,18 +54,24 @@
 }
 
 #card1 {
-    border-top-left-radius: 50px;
+    border-top-right-radius: 50px;
     border-bottom-right-radius: 50px;
+    border-bottom-left-radius: 50px;
+    height: 280px;
+
 }
 #card2 {
+    border-bottom-left-radius: 50px;
     border-top-left-radius: 50px;
-}
+    border-bottom-right-radius: 50px;
+    height: 280px;
+/* }
 #card3 {
     border-top-right-radius: 50px;
 }
 #card4 {
     border-top-left-radius: 50px;
-    border-bottom-right-radius: 50px;
+    border-bottom-right-radius: 50px; */
 }
 #skills{
     background-image: url("../golden-clouds-duncan1890.jpg");
@@ -75,9 +81,44 @@
 .card{
     border-color: maroon;
     border-width: 3px;
-}
-.me{
+    background-color:cornsilk;
     
-
+    
 }
+/* .me{
+    color:
 
+} */
+.section-title {
+    z-index: 2;
+    position: relative;
+    text-align: center;
+    font-size: 3.3rem;
+  }
+  
+.section-title span {
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+    color: black;
+    top: 12px;
+    font-size: 0.9em;
+    z-index: 2;
+}
+h6 {
+    text-align: center;
+}
+.progress-bar{
+    background-color:  maroon;
+}
+#soft{
+    display: flex;
+    justify-content: center;
+    border: solid maroon;
+    border-style:double;
+    height: 50px;
+}
+.card img{
+    aspect-ratio: 1;
+    height: 300px;
+}
