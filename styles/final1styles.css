@@ -327,8 +327,11 @@ h6 {
     transform: translate(-50%, -50%);
     text-align: center;
   }
+  /* .charizard{
+      object-fit: cover;
+  } */
 #insta{
-    font-size: 40px;
+    font-size: 30px;
     display: flex;
     justify-content: center;
     
@@ -345,6 +348,14 @@ h6 {
 }
 #contact{
     background-color: maroon;
+}
+#footer{
+    text-align: center;
+    background-color: rgb(253,216,141);
+    height: 10vh;
+}
+.text-light{
+    color:rgb(253,216,141) !important;
 }
   
   
