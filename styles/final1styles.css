@@ -175,7 +175,7 @@ h6 {
     background-image: url("../Final-images/golden-clouds-duncan1890.jpg");
     background-position: center;
     background-size: cover;
-    height: 180vh;
+    height: 200vh;
     background-attachment: fixed;
 }
 /* .container-2 {
@@ -342,6 +342,9 @@ h6 {
     background-color: rgb(253,216,141);
     border-radius: 10px;
     font-weight: 80px;
+}
+#contact{
+    background-color: maroon;
 }
   
   
