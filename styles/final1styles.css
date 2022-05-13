@@ -1,3 +1,8 @@
+@import url('https://fonts.googleapis.com/css2?family=Alice&family=Libre+Baskerville&display=swap');
+*{
+    font-family: 'Alice', serif;
+    font-weight: 600px;
+}
 #landing {
     background-image: url("../Final-images/golden-clouds-duncan1890.jpg");
     background-position: center;
@@ -198,7 +203,7 @@ h6 {
     background-image: url("../Final-images/golden-clouds-duncan1890.jpg");
     background-position: center;
     background-size: cover;
-    height: 200vh;
+    height: 190vh;
     background-attachment: fixed;
 }
 
@@ -359,13 +364,14 @@ h6 {
       object-fit: cover;
   } */
 #calculatorhub{
-    font-size: 40px;
+    font-size: 30px;
     display: flex;
     justify-content: center;
+    margin-top: 2px;
 
 }
 #calculatorlive{
-    font-size: 40px;
+    font-size: 30px;
     display: flex;
     justify-content: center;
 }
