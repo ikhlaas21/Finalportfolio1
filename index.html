@@ -17,29 +17,31 @@
 
 <body>
 
-  <nav id="Background"
-    class="navbar navbar-expand-lg navbar-light border-bottom border-dark border-6 fixed-top bgColor ">
+  <nav id="Background" class="navbar navbar-expand-lg navbar-light border-bottom border-dark border-6 fixed-top bgColor ">
+    
+    
     <div class="container ">
       <a class="navbar-brand fs-3" style="color: maroon;" href="#">Ikhlaas Rawoot</a>
       <button class="navbar-toggler" button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup"
-        aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
-        <span class="navbar-toggler-icon "></span>
-      </button>
-      <div class="collapse navbar-collapse text-uppercase justify-content-end" id="navbarNavAltMarkup">
-        <div class="navbar-nav">
-          <a class=" nav-link active fs-5" style="color: maroon;" aria-current="page" href="#">Home</a>
-          <a class=" nav-link active fs-5" style="color: maroon;" href="#about">About</a>
-          <a class=" nav-link active fs-5" style="color: maroon;" href="#Resume">Resume</a>
-          <a class=" nav-link active fs-5" style="color: maroon;" href="#skills">Skills</a>
-          <a class=" nav-link active fs-5" style="color: maroon;" href="#testimonial">Testimonials</a>
-          <a class=" nav-link active fs-5" style="color: maroon;" href="#projects">Projects</a>
-          <a class=" nav-link active fs-5" style="color: maroon;" href="#contact">Contact</a>
-        </div>
+      aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon "></span>
+    </button>
+    <div class="collapse navbar-collapse text-uppercase justify-content-end" id="navbarNavAltMarkup">
+      <div class="navbar-nav">
+        <a class=" nav-link active fs-5" style="color: maroon;" aria-current="page" href="#">Home</a>
+        <a class=" nav-link active fs-5" style="color: maroon;" href="#about">About</a>
+        <a class=" nav-link active fs-5" style="color: maroon;" href="#Resume">Resume</a>
+        <a class=" nav-link active fs-5" style="color: maroon;" href="#skills">Skills</a>
+        <a class=" nav-link active fs-5" style="color: maroon;" href="#testimonial">Testimonials</a>
+        <a class=" nav-link active fs-5" style="color: maroon;" href="#projects">Projects</a>
+        <a class=" nav-link active fs-5" style="color: maroon;" href="#contact">Contact</a>
       </div>
     </div>
-  </nav>
-  <section class="bg-danger text-dark " id="landing">
-    <div class="container-fluid d-flex justify-content-center align-items-center flex-column vh-100">
+  </div>
+</nav>
+<section class="bg-danger text-dark " id="landing">
+  <div id="particular"></div>
+    <div id="land" class="container-fluid d-flex justify-content-center align-items-center flex-column vh-100">
       <img id="suit" src="./Final-images/cropme.jpg" alt="me" defer>
       <h1>Ikhlaas Rawoot</h1>
       <h3>
@@ -90,6 +92,7 @@
         </div>
       </div>
     </div>
+   
   </section>
   <section id="resume">
 
@@ -531,12 +534,19 @@
   <footer id="footer">
     <h6>Copyright &copy;Ikhlaas Rawoot 2022. All rights reserved</h6>
   </footer>
-  <script src="script.js"></script>
+  <script src="//cdn.jsdelivr.net/particles.js/2.0.0/particles.min.js"></script>
+  <script>
+    /* particlesJS.load(@dom-id, @path-json, @callback (optional)); */
+    particlesJS.load("particular", "particles.json", function () {
+      console.log("callback - particles.js config loaded");
+    });
+  </script>
   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"
-    integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous">
+  integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous">
   </script>
   <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
   <!-- Initialize AOS -->
+  <script src="script.js"></script>
   <script>
     AOS.init();
   </script>
