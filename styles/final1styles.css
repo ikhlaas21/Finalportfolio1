@@ -1,4 +1,4 @@
-#landing{
+#landing {
     background-image: url("../Final-images/golden-clouds-duncan1890.jpg");
     background-position: center;
     background-size: cover;
@@ -7,55 +7,65 @@
 
 
 }
+
 html {
     scroll-behavior: smooth;
 }
-#suit{
+
+#suit {
     width: 200px;
     height: 200px;
     border: 5px solid maroon;
     border-radius: 50%;
 
 }
-.bgColor{
+
+.bgColor {
     transition: 0.5s;
-   background-color:rgb(253,216,141);
-   border-bottom: 1px solid black;
+    background-color: rgb(253, 216, 141);
+    border-bottom: 1px solid black;
 }
-#aboutlist{
+
+#aboutlist {
     list-style: none;
 }
-#resume{
+
+#resume {
     padding-top: 250px;
     background-color: maroon;
 }
-#Resume{
+
+#Resume {
     scroll-margin: 70px;
 }
-@media screen and (max-width :768px ){
-    #resume{
+
+@media screen and (max-width :768px) {
+    #resume {
         padding-top: 50%;
-      
+
     }
 }
-@media screen and (max-width :426px ){
-    #resume{
+
+@media screen and (max-width :426px) {
+    #resume {
         padding-top: 630px;
 
-      
+
     }
 }
-@media screen and (max-width :376px ){
-    #resume{
+
+@media screen and (max-width :376px) {
+    #resume {
         padding-top: 700px;
 
-      
+
     }
 }
-@media screen and (max-width :321px ){
-    #resume{
+
+@media screen and (max-width :321px) {
+    #resume {
         padding-top: 825px;
-    
+
     }
 }
 
@@ -67,12 +77,13 @@ html {
     height: 280px;
 
 }
+
 #card2 {
     border-bottom-left-radius: 50px;
     border-top-left-radius: 50px;
     border-bottom-right-radius: 50px;
     height: 280px;
-/* }
+    /* }
 #card3 {
     border-top-right-radius: 50px;
 }
@@ -80,19 +91,22 @@ html {
     border-top-left-radius: 50px;
     border-bottom-right-radius: 50px; */
 }
-#skills{
+
+#skills {
     background-image: url("../Final-images/golden-clouds-duncan1890.jpg");
     background-size: cover;
     background-attachment: fixed;
     scroll-margin: 40px;
 }
-.card{
+
+.card {
     border-color: maroon;
     border-width: 3px;
-    background-color:cornsilk;
-    
-    
+    background-color: cornsilk;
+
+
 }
+
 /* .me{
     color:
 
@@ -102,8 +116,8 @@ html {
     position: relative;
     text-align: center;
     font-size: 3.3rem;
-  }
-  
+}
+
 .section-title span {
     position: absolute;
     left: 50%;
@@ -113,71 +127,81 @@ html {
     font-size: 0.9em;
     z-index: 2;
 }
+
 h6 {
     text-align: center;
 }
-.progress-bar{
-    background-color:  maroon;
+
+.progress-bar {
+    background-color: maroon;
 }
-#soft{
+
+#soft {
     display: flex;
     justify-content: center;
     border: solid maroon;
-    border-style:double;
+    border-style: double;
     height: 50px;
 }
-.card img{
+
+.card img {
     aspect-ratio: 1;
     height: 300px;
 }
-#testimonial{
+
+#testimonial {
     background-color: maroon;
     height: 600px;
     scroll-margin-block-start: 90px;
-   
+
 }
-.circle{
+
+.circle {
     width: 10px !important;
     height: 10px !important;
     aspect-ratio: 1 !important;
     border-radius: 50% !important;
 }
-#testimonials{
-    
+
+#testimonials {
+
     /* Working method */
-    background: 
-    linear-gradient(
-        rgba(244, 242, 242, 0.45), 
-        rgba(248, 248, 248, 0.45)
-      ),
-      url("../Final-images/removing-background-images_Unsplash.webp");
+    background:
+        linear-gradient(rgba(244, 242, 242, 0.45),
+            rgba(248, 248, 248, 0.45)),
+        url("../Final-images/removing-background-images_Unsplash.webp");
     background-size: cover;
     background-repeat: 50%;
     margin-top: 15px;
-    border: solid rgb(253,216,141);
+    border: solid rgb(253, 216, 141);
     height: 450px;
 
 
 }
-#testtext{
+
+#testtext {
     font-size: 0.85em;
     font-weight: 600;
 }
-#joel{
+
+#joel {
     width: 185px;
     height: 185px;
     object-fit: cover;
 }
-#projects{
+
+#projects {
     scroll-margin: 50px;
 }
-.projects{
+
+.projects {
     background-image: url("../Final-images/golden-clouds-duncan1890.jpg");
     background-position: center;
     background-size: cover;
     height: 200vh;
     background-attachment: fixed;
 }
+
 /* .container-2 {
     position: relative;
     width: 50%;
@@ -237,7 +261,7 @@ h6 {
 #nommer :hover .middle {
     opacity: 1;
   } */
-  
+
 /* .text {
     background-color: #04AA6D;
     color: white;
@@ -291,16 +315,17 @@ h6 {
 .project:hover .middle{
     opacity: 1;
 } */
-.PContain img{
+.PContain img {
     width: 100%;
-    object-fit:cover;
+    object-fit: cover;
 }
 
 
 .PContain {
     position: relative;
-  }
-  .POverlay {
+}
+
+.POverlay {
     position: absolute;
     top: 0;
     bottom: 0;
@@ -311,14 +336,16 @@ h6 {
     opacity: 0;
     transition: .5s ease;
     background-color: rgba(45, 41, 41, 0.819);
-  }
-  .PContain:hover .POverlay {
+}
+
+.PContain:hover .POverlay {
     opacity: 1;
-  }
-  .PText {
-    color: rgb(253,216,141);
+}
+
+.PText {
+    color: rgb(253, 216, 141);
     font-size: 20px;
-    font-weight:bold;
+    font-weight: bold;
     position: absolute;
     top: 40%;
     left: 50%;
@@ -326,39 +353,55 @@ h6 {
     -ms-transform: translate(-50%, -50%);
     transform: translate(-50%, -50%);
     text-align: center;
-  }
-  /* .charizard{
+}
+
+/* .charizard{
       object-fit: cover;
   } */
-#insta{
+#insta {
     font-size: 30px;
     display: flex;
     justify-content: center;
-    
+
 }
-#bit{
+
+#bit {
     display: flex;
     justify-content: center;
     font-size: 20px;
 }
-.but{
-    background-color: rgb(253,216,141);
+
+.but {
+    background-color: rgb(253, 216, 141);
     border-radius: 10px;
     font-weight: 80px;
 }
-#contact{
+
+#contact {
     background-color: maroon;
 }
-#footer{
+
+#footer {
     text-align: center;
-    background-color: rgb(253,216,141);
+    background-color: rgb(253, 216, 141);
     height: 10vh;
 }
-.text-light{
-    color:rgb(253,216,141) !important;
+
+.text-light {
+    color: rgb(253, 216, 141) !important;
 }
-  
-  
-  
-  
-  
+
+/* Contact */
+form input[type=text] {
+background-color:cornsilk;
+}
+
+form input[type=email] {
+background-color:cornsilk;
+}
+
+form #comments{
+background-color: cornsilk;
+}
+
+/* Contact */
